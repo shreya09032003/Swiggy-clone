@@ -2,6 +2,8 @@
 
 This project is a front-end clone of Swiggy, designed with Angular. The application allows users to explore restaurants, search for items, sign in, add items to a cart, and view detailed information about each restaurant. This README provides a comprehensive overview of the project structure and functionality of each folder, page, and component.
 
+## DEMO URL :- https://swiggy-clone-angular.netlify.app/
+
 ## Project Structure
 
 The main project structure under the `src/app` folder is organized into two primary folders:
