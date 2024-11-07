@@ -62,6 +62,8 @@ The **components** folder contains all reusable components that enhance modulari
 1. **Footer**
    - **Purpose**: Displays footer links and information at the bottom of each page.
    - **Usage**: Used in multiple pages, especially the Home Page and other main views.
+     ![image](https://github.com/user-attachments/assets/20ea9482-fc0c-4ae0-a0c7-746cff852a54)
+
 
 2. **Header**
    - **Purpose**: The main navigation bar for the application.
@@ -90,6 +92,8 @@ The **components** folder contains all reusable components that enhance modulari
      - Shows restaurant details like address, rating, and description.
      - Lists menu items associated with the restaurant.
    - **Usage**: Accessed when a user clicks on a specific restaurant card.
+     ![image](https://github.com/user-attachments/assets/dc81b3bf-42d6-4912-8a7f-9dc61ad01b21)
+
 
 ### Services
 
@@ -114,7 +118,7 @@ The **services** folder contains Angular services that manage data handling and 
      - Fetches details for specific restaurants based on their ID.
    - **Usage**: Utilized across components that display restaurant information, including the Home Page, Restaurant Card, and Restaurant Detail Page.
 
-4. **Popular Categories Service**
+4. **Popular Categories Service ( menu service )**
    - **Purpose**: Fetches and provides data for popular categories.
    - **Usage**: Mainly used by the Popular Categories component on the Home Page.
 
@@ -122,7 +126,7 @@ The **services** folder contains Angular services that manage data handling and 
 
 ## Additional Information
 
-- **Mock API**: This project uses MockAPI for handling user sign-in and other mock data retrieval processes.
+- **Mock API**: This project uses MockAPI for handling user sign-in.
 - **Angular Modules**: The project is modularized to ensure separation of concerns, and services are injected where needed for optimal data flow and management.
 - **Routing**: Angular Router is used for navigating between pages (like Home, Cart, Sign-In, etc.).
   
