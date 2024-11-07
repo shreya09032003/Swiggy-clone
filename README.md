@@ -25,14 +25,18 @@ Additionally, the project includes services that handle data and business logic.
    - **Purpose**: Allows users to search for any food item or restaurant.
    - **Functionality**: On entering a search term, it retrieves and displays relevant search results.
    - **Components Used**: Typically includes an input field and a results display section.
+     ![image](https://github.com/user-attachments/assets/c0a9988f-5611-40ce-97e0-df8beb768fca)
+
 
 3. **Sign-In Page**
    - **Purpose**: Prompts the user to sign in with an email, name, and phone number.
    - **Functionality**:
      - Form validation ensures valid data entry.
      - On clicking the Sign-In button, validated data is sent to a MockAPI.
-     - Upon successful sign-in, the user is redirected to the Home Page, where their name replaces the "Sign In" text.
+     - Upon successful sign-in, the user is redirected to the Home Page, where their name replaces the "Sign In" text in the header
    - **Components Used**: Form fields and validation messages.
+     ![image](https://github.com/user-attachments/assets/4e8f03d3-d531-4476-87ec-1d01ceb6baef)
+
 
 4. **Cart Page**
    - **Purpose**: Displays all items the user has added to their cart.
@@ -41,16 +45,15 @@ Additionally, the project includes services that handle data and business logic.
      - Enables users to remove individual items or clear the cart entirely.
      - If the cart is empty, a message prompts the user to explore restaurants and add items to the cart.
    - **Components Used**: Cart item cards, total amount display, and empty cart message.
+     ![image](https://github.com/user-attachments/assets/be77f7a1-8953-47a9-9975-fe589c49f2c9)
+
 
 5. **Explore Page**
    - **Purpose**: Displays additional browsing options or restaurants based on user interest.
    - **Functionality**: May include filters or sorting options for restaurant exploration.
    - **Components Used**: Typically includes a collection of restaurant cards.
+     ![image](https://github.com/user-attachments/assets/8175fa4b-82b0-4652-a695-75666903ac42)
 
-6. **Account Page**
-   - **Purpose**: Displays the user's account details and provides options for updating information.
-   - **Functionality**: Shows user information and past order history if applicable.
-   - **Components Used**: Profile display components and options for editing details.
 
 ### Components
 
